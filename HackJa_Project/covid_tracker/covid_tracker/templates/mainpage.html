@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 5em;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .column_1 {
+  float: left;
+  width: 50%;
+  padding-left: 2em;
+  padding-top: 4em;
+  height: 25em;
+
+}
+
+.column_2 {
+float: left;
+width: 30%;
+margin: 1.5%;
+height: 5em;
+padding-top: 0%;
+background-color: #0c8fa6;
+text-align: center;
+vertical-align: middle;
+line-height: 5em;
+font-size: 3em;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-color: #ededed;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+button {
+  margin-top: 3em;
+  margin-left:2%;
+  margin-right:2%;
+  height: 4em;
+  font-size: 10em;
+  font-weight: bold;
+  font-color: #000738;
+}
+p{
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1em;
+}
+
+span{
+  font-size: 2em;
+}
+img {
+  margin-top: 5em;
+  display: block;
+  margin-right: 4em;
+
+}
+h1{
+  font-size: 4em;
+}
+</style>
+</head>
+<body>
+
+  <a href="http://192.168.1.93:8000"><h1> Covid Tracker </h1></a>
+
+  <p>Wear a mask, maintain social distance and track when you are exposed to COVID.</p>
+
+<p>By checking in your locations when you dine-in or visit other public places, we can track and inform you when there is an exposure..
+
+    </p>
+<div class = "one">
+
+</div>
+<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/4B4F/production/_113397291_face_coverings.png">
+<div class = "two">
+<button type="button" class="btn btn-outline-primary btn-lg btn-block"><span>I AM A BUSINESS OWNER</span></button>
+  </div>
+  <div class = "three">
+  <a href='http://192.168.1.93:8000/happy_burger'><button type="button" class="btn btn-outline-primary btn-lg btn-block"><span>I WANT TO CHECK IN</span></button></a>
+    </div>
+    <div class = "four">
+    <a href="http://192.168.1.93:8000/report_case"><button type="button" class="btn btn-outline-primary btn-lg btn-block"><span>I WANT TO REPORT A CASE</span></button></a>
+      </div>
+
+
+
+</body>
+</html>

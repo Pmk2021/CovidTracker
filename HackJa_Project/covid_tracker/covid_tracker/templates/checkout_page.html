@@ -1,0 +1,13 @@
+<div>
+<a href="http://192.168.1.93:8000"><h1> Covid Tracker </h1></a>
+<div>
+
+
+<h2> Thank You For Visiting Happy Burger </h2>
+<h2> Please enter your phone number to check out </h2>
+
+<form action="happy_burger_checkout" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
